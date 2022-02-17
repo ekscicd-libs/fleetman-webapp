@@ -17,8 +17,8 @@ spec:
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: production-microservice
-        image: shivrepo/fleetman-webapp:latest
-        imagePullPolicy: Always
+        image: ${REPOSITORY_TAG}
+        imagePullPolicy: Never
         readinessProbe:
           httpGet:
             path: /
