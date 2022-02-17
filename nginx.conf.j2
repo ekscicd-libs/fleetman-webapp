@@ -20,7 +20,7 @@ http {
         proxy_set_header        X-Forwarded-Proto $scheme;
 
        
-        proxy_pass          http://65.0.123.245:30020/;
+        proxy_pass          http://65.0.123.245:30020/; ## This url should be changed according to your fleetman-api-gateway application url.
 
         proxy_read_timeout  90;
 
