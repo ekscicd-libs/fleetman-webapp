@@ -1,3 +1,3 @@
-@Library('libs@master) _
+@Library("libs@master") _
 
 service()
